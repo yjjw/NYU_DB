@@ -1,0 +1,42 @@
+jy3555
+
+Please replace the NetID above with your own NetID
+
+Please replace [] parts with your own answer.
+
+
+ANSWER5:
+- Tables changed (if any): [Company]
+    - Explain: [deleted the company with TIN '74939103']
+- Error messages (if any): [Y]
+    - Message: [ORA-02292: integrity constraint (JY3555.COMPANY_DOMAIN_FK) violated - child 
+record found ]
+    - Explain: [Company_Domain's foreign key relies on the TIN of Company, so when the company
+with TIN '74939103' is deleted from the company table, the associated records in Company_Domain
+lost its reference]
+
+ANSWER6:
+- Tables changed (if any): [Big]
+    - Explain: [Manager associated with TIN '95499546' was updated]
+- Error messages (if any): [Y]
+    - Message: [ERROR at line 1:
+ORA-02291: integrity constraint (JY3555.BIG_MANAGER_FK) violated - parent key 
+not found ]
+    - Explain: [Manager has (FN, PN) as the foreign key, when we updated a manager that does not exist in the table Big, the error occurs]
+
+ANSWER7:
+- Tables changed (if any): [Big, Small]
+    - Explain: [deleted company '35983220' from Big and inserted it to Small]
+- Error messages (if any): [N]
+    - Message: [copy the error here]
+    - Explain: [what the error was / why did it occur?]
+
+
+ANSWER8:
+- Tables changed (if any): [Helps]
+    - Explain: [inserted a new record such that company with TIN '74939103'
+helping company with TIN '90309251']
+- Error messages (if any): [Y]
+    - Message: [ORA-00001: unique constraint (JY3555.HELPS_PK) violated ]
+    - Explain: [(Helper, Helped) should be unique in Helps table, if we insert a duplicate,
+we will see this error]

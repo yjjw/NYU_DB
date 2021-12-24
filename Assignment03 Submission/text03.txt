@@ -1,0 +1,26 @@
+METADATA
+
+My Name
+Jingwei Ye
+
+My Net ID
+jy3555
+
+Computer I used to produce the ER diagram: owner and model
+Microsoft Surface Laptop2
+
+The operating system on the computer I used
+Microsoft Windows 10 Education
+
+
+ANNOTATIONS
+
+1. Number is alway known and no two stores owned by the same company may have the same number.
+2. If size of a store is known, is it at least 100,000.
+
+
+RESPONSES
+
+(a) Yes
+
+(b)

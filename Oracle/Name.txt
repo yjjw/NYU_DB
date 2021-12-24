@@ -1,0 +1,277 @@
+SQL> @ExamplePCI
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table altered.
+
+
+Table altered.
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ TABLE_NAME                                NOT NULL VARCHAR2(128)
+ TABLESPACE_NAME                                    VARCHAR2(30)
+ CLUSTER_NAME                                       VARCHAR2(128)
+ IOT_NAME                                           VARCHAR2(128)
+ STATUS                                             VARCHAR2(8)
+ PCT_FREE                                           NUMBER
+ PCT_USED                                           NUMBER
+ INI_TRANS                                          NUMBER
+ MAX_TRANS                                          NUMBER
+ INITIAL_EXTENT                                     NUMBER
+ NEXT_EXTENT                                        NUMBER
+ MIN_EXTENTS                                        NUMBER
+ MAX_EXTENTS                                        NUMBER
+ PCT_INCREASE                                       NUMBER
+ FREELISTS                                          NUMBER
+ FREELIST_GROUPS                                    NUMBER
+ LOGGING                                            VARCHAR2(3)
+ BACKED_UP                                          VARCHAR2(1)
+ NUM_ROWS                                           NUMBER
+ BLOCKS                                             NUMBER
+ EMPTY_BLOCKS                                       NUMBER
+ AVG_SPACE                                          NUMBER
+ CHAIN_CNT                                          NUMBER
+ AVG_ROW_LEN                                        NUMBER
+ AVG_SPACE_FREELIST_BLOCKS                          NUMBER
+ NUM_FREELIST_BLOCKS                                NUMBER
+ DEGREE                                             VARCHAR2(10)
+ INSTANCES                                          VARCHAR2(10)
+ CACHE                                              VARCHAR2(5)
+ TABLE_LOCK                                         VARCHAR2(8)
+ SAMPLE_SIZE                                        NUMBER
+ LAST_ANALYZED                                      DATE
+ PARTITIONED                                        VARCHAR2(3)
+ IOT_TYPE                                           VARCHAR2(12)
+ TEMPORARY                                          VARCHAR2(1)
+ SECONDARY                                          VARCHAR2(1)
+ NESTED                                             VARCHAR2(3)
+ BUFFER_POOL                                        VARCHAR2(7)
+ FLASH_CACHE                                        VARCHAR2(7)
+ CELL_FLASH_CACHE                                   VARCHAR2(7)
+ ROW_MOVEMENT                                       VARCHAR2(8)
+ GLOBAL_STATS                                       VARCHAR2(3)
+ USER_STATS                                         VARCHAR2(3)
+ DURATION                                           VARCHAR2(15)
+ SKIP_CORRUPT                                       VARCHAR2(8)
+ MONITORING                                         VARCHAR2(3)
+ CLUSTER_OWNER                                      VARCHAR2(128)
+ DEPENDENCIES                                       VARCHAR2(8)
+ COMPRESSION                                        VARCHAR2(8)
+ COMPRESS_FOR                                       VARCHAR2(30)
+ DROPPED                                            VARCHAR2(3)
+ READ_ONLY                                          VARCHAR2(3)
+ SEGMENT_CREATED                                    VARCHAR2(3)
+ RESULT_CACHE                                       VARCHAR2(7)
+ CLUSTERING                                         VARCHAR2(3)
+ ACTIVITY_TRACKING                                  VARCHAR2(23)
+ DML_TIMESTAMP                                      VARCHAR2(25)
+ HAS_IDENTITY                                       VARCHAR2(3)
+ CONTAINER_DATA                                     VARCHAR2(3)
+ INMEMORY                                           VARCHAR2(8)
+ INMEMORY_PRIORITY                                  VARCHAR2(8)
+ INMEMORY_DISTRIBUTE                                VARCHAR2(15)
+ INMEMORY_COMPRESSION                               VARCHAR2(17)
+ INMEMORY_DUPLICATE                                 VARCHAR2(13)
+ DEFAULT_COLLATION                                  VARCHAR2(100)
+ DUPLICATED                                         VARCHAR2(1)
+ SHARDED                                            VARCHAR2(1)
+ EXTERNAL                                           VARCHAR2(3)
+ CELLMEMORY                                         VARCHAR2(24)
+ CONTAINERS_DEFAULT                                 VARCHAR2(3)
+ CONTAINER_MAP                                      VARCHAR2(3)
+ EXTENDED_DATA_LINK                                 VARCHAR2(3)
+ EXTENDED_DATA_LINK_MAP                             VARCHAR2(3)
+ INMEMORY_SERVICE                                   VARCHAR2(12)
+ INMEMORY_SERVICE_NAME                              VARCHAR2(1000)
+ CONTAINER_MAP_OBJECT                               VARCHAR2(3)
+
+Usage: DESCRIBE [schema.]object[@db_link]
+
+TABLE_NAME                                                                      
+--------------------------------------------------------------------------------
+CONSTRAINT_NAME                                                                 
+--------------------------------------------------------------------------------
+C                                                                               
+-                                                                               
+INVOICE                                                                         
+CUSTOMER_INVOICE_FK1                                                            
+R                                                                               
+                                                                                
+CUSTOMER                                                                        
+PLANT_CUSTOMER_FK1                                                              
+R                                                                               
+
+TABLE_NAME                                                                      
+--------------------------------------------------------------------------------
+CONSTRAINT_NAME                                                                 
+--------------------------------------------------------------------------------
+C                                                                               
+-                                                                               
+                                                                                
+BIN$zzHbJx12SAHgU6oWpdgleg==$0                                                  
+BIN$zzHbJx10SAHgU6oWpdgleg==$0                                                  
+P                                                                               
+                                                                                
+BIN$zzHbJx16SAHgU6oWpdgleg==$0                                                  
+BIN$zzHbJx13SAHgU6oWpdgleg==$0                                                  
+
+TABLE_NAME                                                                      
+--------------------------------------------------------------------------------
+CONSTRAINT_NAME                                                                 
+--------------------------------------------------------------------------------
+C                                                                               
+-                                                                               
+C                                                                               
+                                                                                
+BIN$zzHbJx16SAHgU6oWpdgleg==$0                                                  
+BIN$zzHbJx14SAHgU6oWpdgleg==$0                                                  
+P                                                                               
+                                                                                
+BIN$zzHbJx1ySAHgU6oWpdgleg==$0                                                  
+
+TABLE_NAME                                                                      
+--------------------------------------------------------------------------------
+CONSTRAINT_NAME                                                                 
+--------------------------------------------------------------------------------
+C                                                                               
+-                                                                               
+BIN$zzHbJx1uSAHgU6oWpdgleg==$0                                                  
+C                                                                               
+                                                                                
+BIN$zzHbJx1ySAHgU6oWpdgleg==$0                                                  
+BIN$zzHbJx1vSAHgU6oWpdgleg==$0                                                  
+C                                                                               
+                                                                                
+
+TABLE_NAME                                                                      
+--------------------------------------------------------------------------------
+CONSTRAINT_NAME                                                                 
+--------------------------------------------------------------------------------
+C                                                                               
+-                                                                               
+BIN$zzHbJx1ySAHgU6oWpdgleg==$0                                                  
+BIN$zzHbJx1wSAHgU6oWpdgleg==$0                                                  
+P                                                                               
+                                                                                
+BIN$zzHbJx12SAHgU6oWpdgleg==$0                                                  
+BIN$zzHbJx1zSAHgU6oWpdgleg==$0                                                  
+C                                                                               
+
+TABLE_NAME                                                                      
+--------------------------------------------------------------------------------
+CONSTRAINT_NAME                                                                 
+--------------------------------------------------------------------------------
+C                                                                               
+-                                                                               
+                                                                                
+CUSTOMER                                                                        
+CUSTOMER_PK                                                                     
+P                                                                               
+                                                                                
+INVOICE                                                                         
+INVOICE_PK                                                                      
+
+TABLE_NAME                                                                      
+--------------------------------------------------------------------------------
+CONSTRAINT_NAME                                                                 
+--------------------------------------------------------------------------------
+C                                                                               
+-                                                                               
+P                                                                               
+                                                                                
+PLANT                                                                           
+PLANT_PK                                                                        
+P                                                                               
+                                                                                
+TEMP0                                                                           
+
+TABLE_NAME                                                                      
+--------------------------------------------------------------------------------
+CONSTRAINT_NAME                                                                 
+--------------------------------------------------------------------------------
+C                                                                               
+-                                                                               
+SYS_C00996905                                                                   
+C                                                                               
+                                                                                
+INVOICE                                                                         
+SYS_C00996906                                                                   
+C                                                                               
+                                                                                
+
+TABLE_NAME                                                                      
+--------------------------------------------------------------------------------
+CONSTRAINT_NAME                                                                 
+--------------------------------------------------------------------------------
+C                                                                               
+-                                                                               
+INVOICE                                                                         
+SYS_C00996907                                                                   
+C                                                                               
+                                                                                
+CUSTOMER                                                                        
+SYS_C00996909                                                                   
+C                                                                               
+
+TABLE_NAME                                                                      
+--------------------------------------------------------------------------------
+CONSTRAINT_NAME                                                                 
+--------------------------------------------------------------------------------
+C                                                                               
+-                                                                               
+                                                                                
+PLANT                                                                           
+SYS_C00996911                                                                   
+C                                                                               
+                                                                                
+
+17 rows selected.
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ P#                                        NOT NULL NUMBER(38)
+ PNAME                                              VARCHAR2(10)
+ CITY                                               VARCHAR2(10)
+ MARGIN                                             FLOAT(126)
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ C#                                        NOT NULL NUMBER(38)
+ CNAME                                              VARCHAR2(10)
+ CITY                                               VARCHAR2(10)
+ P#                                      

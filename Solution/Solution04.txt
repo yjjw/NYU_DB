@@ -1,0 +1,30 @@
+METADATA
+
+My Name
+Zvi Kedem
+
+My Net ID
+zk1
+
+Computer I used to produce the ER diagram
+My own computer, which is Dell Inspiron
+
+The operating system on the computer I used
+Microsoft Windows 10 Education
+
+
+ANNOTATIONS
+
+1. RegNumber is unique.
+
+2. Big and Small are disjoint
+
+3. TIN1 is always different from TIN2 (in a tuple).
+
+5. There is a derived attribute Bonus of Manager that is computed as 5% of the Salary.
+
+
+RESPONSES
+
+(a) Yes
+

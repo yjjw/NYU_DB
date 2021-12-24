@@ -1,0 +1,23 @@
+METADATA
+
+My Name
+Jingwei Ye
+
+My Net ID
+jy3555
+
+Computer I used to produce the ER diagram
+My own computer, which is Microsoft Surface Laptop 2
+
+The operating system on the computer I used
+Microsoft Windows 10
+
+
+ANNOTATIONS
+
+1. Table Help is a Directed Acyclic Graph (DAG)
+2. Bonus: Computed Attribute for Manager by 5% of Salary
+
+RESPONSES
+
+(a) Yes

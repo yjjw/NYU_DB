@@ -1,0 +1,29 @@
+METADATA
+
+My Name
+Jingwei Ye
+
+My Net ID
+jy3555
+
+Computer I used to produce the ER diagram: Microsoft Surface Laptop 2
+My own computer.
+
+The operating system on the computer I used
+Microsoft Windows 10 Education
+
+
+ANNOTATIONS
+
+A small company may not help itself.
+
+If a manager supervises a company, that relationship has attribute start.
+
+Bonus is computed as 5% of salary.
+
+
+RESPONSES
+
+(a) Yes
+
+(b)

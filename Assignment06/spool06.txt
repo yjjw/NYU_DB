@@ -1,0 +1,85 @@
+zk1
+ANSWER0
+
+Table created.
+
+
+Table created.
+
+
+TIN
+--------------------------------------------------------------------------------
+99448276
+96745976
+95619293
+93739010
+90309251
+74939103
+71418213
+71237407
+71191955
+59515298
+51251930
+
+TIN
+--------------------------------------------------------------------------------
+37516443
+35955759
+35072963
+32904798
+27707035
+27689825
+25878270
+21086730
+17097996
+
+20 rows selected.
+
+ANSWER1
+SELECT * FROM ANSWER1
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+ANSWER2
+SELECT * FROM ANSWER2
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+ANSWER3
+SELECT * FROM ANSWER3
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+ANSWER4
+SELECT * FROM ANSWER4
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+ANSWER5
+SELECT * FROM ANSWER5
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+ANSWER6
+SELECT * FROM ANSWER6
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+ANSWER7
+SELECT * FROM ANSWER7
+              *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+

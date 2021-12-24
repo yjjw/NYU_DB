@@ -1,0 +1,22 @@
+METADATA
+
+My Name
+Jingwei Ye
+
+My Net ID
+jy3555
+
+Computer I used to produce the ER diagram
+My own computer, which is Microsoft Surface Laptop2
+
+The operating system on the computer I used
+Microsoft Windows 10
+
+
+ANNOTATIONS
+
+
+1. In every tuple of Approve, Number and Approver must be different (if there is an Approver)
+2. Helps is a forest of rooted trees
+3. Size when known is at least 100,000
+4. Helps is a total function
